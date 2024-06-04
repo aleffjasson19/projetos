@@ -1,0 +1,71 @@
+
+
+  body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-icon {
+   position: absolute;
+     top: 10px; 
+    right: 5px;
+    width: 2;
+    height: 1px;
+  
+  }
+  
+  .center-div {
+    text-align: center;
+  }
+  
+  .logo-image {
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+  }
+  
+  .blue-background {
+    background-color: lightblue;
+  }
+  
+  .menu {
+    background-color: lightblue;
+    padding: 10px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+  }
+  
+  .table-layout {
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  .table-layout img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .footer {
+    text-align: center;
+    background-color: lightblue;
+    padding: 10px;
+  }
+
+  .text-esquerdo{
+   text-align: left;
+  }
+
+
+  .image-pagamento{
+
+    width: 200px;
+    height: auto;
+
+
+  }

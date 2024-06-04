@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Opções de Compra</title>
+    <script src="js/compra.js"></script>
+   <link rel="stylesheet" href="css/compra.css">
+   
+</head>
+<body id="b">
+    <div class="container">
+        <div class="content">
+    <h1>Escolha a opção de compra:</h1>
+    <form id="purchase-form">
+        <label>
+            <b><input type="radio" name="purchase-option" value="curso-individual" id="curso-individual">
+            Curso Individual
+        </label> </b>    
+        
+        
+         &nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <b> <label>
+            <input type="radio" name="purchase-option" value="licenca-anual" id="licenca-anual">
+            Licença Anual
+        </label></b>
+<br><br>
+        <div class="additional-fields" id="curso-individual-fields">
+            <h2>Informações do Curso Individual:</h2>
+            &nbsp;&nbsp;&nbsp;&nbsp; 
+            &nbsp;&nbsp;&nbsp;&nbsp;
+             <b><label for="nome-curso">Nome do Curso:</label></b>
+            <select>
+                <option>TI</option>
+                <option>Enfermagem</option>
+                <option>python</option>
+            </select>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+             <b><label for="data-inicio">Data de Início:</label></b>
+            <input type="date" id="data-inicio" name="data-inicio">
+            <br><br>
+        </div>
+
+        <div class="additional-fields" id="licenca-anual-fields">
+            <h2>Informações da Licença Anual:</h2> 
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+          <b><label for="tipo-licenca">Valor Licença: R$500,00</label></b>
+            
+            <br>    
+            <br>
+        </div> 
+    
+        <button  type="submit">Comprar</button>
+    
+    <br>
+    <br>    
+   
+     </div>
+    </div>
+</body>
+</html>
